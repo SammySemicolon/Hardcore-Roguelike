@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="hardcore_roguelike"
+version="${file.jarVersion}"
+displayName="Hardcore Roguelike"
+authors="Sammy;"
+
+description='''${mod_description}'''
+[[dependencies.hardcore_roguelike]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.hardcore_roguelike]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"

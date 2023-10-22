@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "WYW",
+    "ZZZ"
+  ],
+  "key": {
+    "X": {
+      "tag": "forge:gems/diamond"
+    },
+    "Y": {
+      "tag": "forge:gems/lapis"
+    },
+    "Z": {
+      "tag": "forge:ingots/iron"
+    },
+    "W": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "hardcore_roguelike:bountiful_altar"
+  }
+}

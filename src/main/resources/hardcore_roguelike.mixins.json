@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.sammy.hardcore_roguelike.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "hardcore_roguelike.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "GameTabMixin",
+    "MoreTabMixin",
+    "WorldCreationUIStateMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.5"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "hardcore_roguelike:block/bountiful_altar"
+    }
+  }
+}
